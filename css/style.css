@@ -1,0 +1,79 @@
+@font-face {
+    font-family: HappyMonkey-Regular;
+    src: url(../fonts/Happy_Monkey/HappyMonkey-Regular.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family: HappyMonkey-Regular;
+    margin: 5em;
+}
+
+.buttonRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10em;
+}
+
+.hubRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hubBtns{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+
+}
+
+.nav .nav-item .nav-link {
+    color: black;
+    background-color: #89FF8E;
+    align-items: center;
+    align-self: center;
+    margin-left: 1em;
+    width: auto;
+}
+
+.nav {
+    background-color: #89FF8E;
+    margin-bottom: 5em;
+}
+
+h2 {
+    text-align: center;
+    font-family: HappyMonkey-Regular;
+}
+
+.response {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 10em;
+    height: 10em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-top: 4em;
+}
+
+body {
+    background-color: gray;
+}
+
+.helloEntry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+}
+
+.pageHeading {
+    text-align: center;
+    margin: 1em;
+}
+
+.submitBtn{
+    margin: 1em;
+}
